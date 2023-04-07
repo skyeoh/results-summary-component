@@ -13,9 +13,9 @@
     --clr-secondary-hsl-500: 241, 72%, 46%;
 
     --clr-neutral-hsl-100: 0, 0%, 100%;
-    --clr-neutral-hsl-200: 221, 100% 96%;
-    --clr-neutral-hsl-300: 241, 100% 89%;
-    --clr-neutral-hsl-700: 224, 30% 27%;
+    --clr-neutral-hsl-200: 221, 100%, 96%;
+    --clr-neutral-hsl-300: 241, 100%, 89%;
+    --clr-neutral-hsl-700: 224, 30%, 27%;
 
     --clr-neutral-100: hsl(var(--clr-neutral-hsl-100));
     --clr-neutral-200: hsl(var(--clr-neutral-hsl-200));
@@ -84,4 +84,24 @@ body {
         display: grid;
         place-items: center;
     }
+}
+
+.section-title {
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-600);
+}
+
+.button {
+    color: var(--clr-neutral-100);
+    line-height: 1;
+    background: var(--clr-neutral-700);
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 100vw;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus-visible {
+    background: var(--gradient-primary);
 }
