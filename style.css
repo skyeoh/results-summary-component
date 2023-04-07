@@ -105,3 +105,17 @@ body {
 .button:focus-visible {
     background: var(--gradient-primary);
 }
+
+.results-summary {
+    max-width: 46rem;
+    display: grid;
+}
+
+@media (min-width: 600px) {
+    .results-summary {
+        grid-template-columns: 1fr 1fr;
+        border-radius: 2rem;
+        box-shadow: .5rem 1rem 3rem
+          hsl(var(--clr-neutral-hsl-700), .2);
+    }
+}
