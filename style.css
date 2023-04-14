@@ -107,6 +107,7 @@ body {
 }
 
 .results-summary {
+    --padding: 2.5rem;
     --border-radius: 2rem;
     max-width: 46rem;
     display: grid;
@@ -120,6 +121,11 @@ body {
         box-shadow: .5rem 1rem 3rem
           hsl(var(--clr-neutral-hsl-700), .2);
     }
+}
+
+.results,
+.summary {
+    padding: var(--padding);
 }
 
 .results {
