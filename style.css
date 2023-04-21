@@ -169,3 +169,9 @@ body {
     line-height: 1;
     color: var(--clr-neutral-100);
 }
+
+.results-rank {
+    color: var(--clr-neutral-100);
+    font-size: var(--fs-700);
+    font-weight: var(--fw-bold);
+}
