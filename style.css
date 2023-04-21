@@ -86,6 +86,13 @@ body {
     }
 }
 
+.flex-group {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
 .grid-flow {
     display: grid;
     align-content: start;
@@ -174,4 +181,17 @@ body {
     color: var(--clr-neutral-100);
     font-size: var(--fs-700);
     font-weight: var(--fw-bold);
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: lightblue;
+}
+
+.summary-item svg {
+    stroke: red;
 }
