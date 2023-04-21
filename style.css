@@ -86,6 +86,16 @@ body {
     }
 }
 
+.grid-flow {
+    display: grid;
+    align-content: start;
+    gap: 1rem;
+}
+
+.grid-flow[data-spacing="large"] {
+    gap: 2rem;
+}
+
 .section-title {
     font-weight: var(--fw-bold);
     font-size: var(--fs-600);
